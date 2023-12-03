@@ -19,12 +19,11 @@ jobs:
           php-version: '7.4'
           
       - name: Run PHP Script
-        run: 
+        run: |
           php gen_sub.php
           git config --global user.email "thisisman1b@gmail.com"
           git config --global user.name "FreeForAllN"
-          git config credential.helper store
           git add -A
-          git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "🚀 Config Update "
           git push
       
