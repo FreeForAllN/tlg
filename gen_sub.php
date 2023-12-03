@@ -64,13 +64,13 @@ foreach ($channels as $channel) {
     foreach ($content as $line) {
     // Check the line for different link types
         if (preg_match("/vmess:(\/\/[^#]+)/", $line, $matches)) {
-            $vmessLinks[] = $matches[0];
+            $vmessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
         } elseif (preg_match("/vless:(\/\/[^#]+)/", $line, $matches)) {
-            $vlessLinks[] = $matches[0];
+            $vlessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
         } elseif (preg_match("/trojan:(\/\/[^#]+)/", $line, $matches)) {
-            $trojanLinks[] = $matches[0];
+            $trojanLinks[] = $matches[0]. "#join_@FreeForAllN \n";
         } elseif (preg_match("/ss:(\/\/[^#]+)/", $line, $matches)) {
-            $ssLinks[] = $matches[0];
+            $ssLinks[] = $matches[0]. "#join_@FreeForAllN \n";
         }
     }
 }
@@ -85,14 +85,14 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 
 
 // Fix "&" conversion issue
-//$servers = array_map('htmlspecialchars_decode', $servers);
+$servers = array_map('htmlspecialchars_decode', $output);
 
 //file_put_contents($outputFile, implode(" \n", $servers));
 // Base64 encode links
 if (!is_dir('sub')) {
     mkdir('sub', 0755, true);
 }
-file_put_contents('sub/output.txt', $output);
+file_put_contents('sub/output.txt', $servers);
 file_put_contents('sub/s64', base64_encode($output));
 
 ?>
