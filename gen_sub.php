@@ -61,7 +61,7 @@ foreach ($channels as $channel) {
     }
 
     // Loop through messages
-    foreach ($lines as $line) {
+    foreach ($content as $line) {
     // Check the line for different link types
         if (preg_match("/^vmess:(\/\/[^#]+)/", $line, $matches)) {
             $vmessLinks[] = $matches[0];
@@ -85,9 +85,9 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 
 
 // Fix "&" conversion issue
-$servers = array_map('htmlspecialchars_decode', $servers);
+//$servers = array_map('htmlspecialchars_decode', $servers);
 
-file_put_contents($outputFile, implode(" \n", $servers));
+//file_put_contents($outputFile, implode(" \n", $servers));
 file_put_contents('output.txt', $output);
 // Base64 encode links
 
