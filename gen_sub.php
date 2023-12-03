@@ -92,8 +92,8 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 if (!is_dir('sub')) {
     mkdir('sub', 0755, true);
 }
-file_put_contents('sub/output.txt', $output);
-file_put_contents('sub/s64.txt', base64_encode($output));
+file_put_contents('sub/output', $output);
+file_put_contents('s64', base64_encode($output));
 
 ?>
 
