@@ -74,6 +74,10 @@ foreach ($channels as $channel) {
         }
     }
 }
+$vmessLinks = array_map('htmlspecialchars_decode', $vmessLinks);
+$vlessLinks = array_map('htmlspecialchars_decode', $vlessLinks);
+$trojanLinks = array_map('htmlspecialchars_decode', $trojanLinks);
+$ssLinks = array_map('htmlspecialchars_decode', $ssLinks);
 // Combine the links into a unified format
 $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
           "VLESS LINKS:\n" . implode("\n", $vlessLinks) . "\n\n" .
@@ -84,15 +88,13 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 
 
 
-// Fix "&" conversion issue
-$servers = array_map('htmlspecialchars_decode', $output);
 
 //file_put_contents($outputFile, implode(" \n", $servers));
 // Base64 encode links
 if (!is_dir('sub')) {
     mkdir('sub', 0755, true);
 }
-file_put_contents('sub/output.txt', $servers);
+file_put_contents('sub/output.txt', $output);
 file_put_contents('sub/s64', base64_encode($output));
 
 ?>
