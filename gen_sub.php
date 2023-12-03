@@ -83,10 +83,10 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
           "VLESS LINKS:\n" . implode("\n", $vlessLinks) . "\n\n" .
           "TROJAN LINKS:\n" . implode("\n", $trojanLinks) . "\n\n" .
           "SHADOWSOCKS LINKS:\n" . implode("\n", $ssLinks);
-$vm64=base64_encode($vmessLinks)
-$vl64=base64_encode($vlessLinks)
-$tj64=base64_encode($trojanLinks)
-$ss64=base64_encode($ssLinks)
+$vm64=base64_encode($vmessLinks);
+$vl64=base64_encode($vlessLinks);
+$tj64=base64_encode($trojanLinks);
+$ss64=base64_encode($ssLinks);
 // Write the combined links to a .txt file
 $output64 = "VMESS LINKS:\n" . implode("\n", $vm64) . "\n\n" .
           "VLESS LINKS:\n" . implode("\n", $vl64) . "\n\n" .
@@ -101,6 +101,7 @@ if (!is_dir('sub')) {
     mkdir('sub', 0755, true);
 }
 file_put_contents('sub/output', $output);
+file_put_contents('sub/s65', base64_encode($output));
 file_put_contents('sub/s64', $output64);
 
 ?>
