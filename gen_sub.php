@@ -93,7 +93,7 @@ if (!is_dir('sub')) {
     mkdir('sub', 0755, true);
 }
 file_put_contents('sub/output', $output);
-file_put_contents('s64', base64_encode($output));
+file_put_contents('sub/s64', base64_encode($output));
 
 ?>
 
