@@ -19,12 +19,12 @@ jobs:
           php-version: '8.2'
           
       - name: Run PHP Script
-        run: php ${{ github.workspace }}/gen_sub.php
-        
-      - name: Commit and Push Changes
-        run:          
-          git config --local user.email "thisisman1b@gmail.com"
-          git config --local user.name "FreeForAllN"
+        run: 
+          php gen_sub.php
+          git config --global user.email "yebekhe@gmail.com"
+          git config --global user.name "yebekhe"
+          git config credential.helper store
           git add -A
-          git commit -m "Updated server links" echo 'No changes to commit'
+          git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+      
