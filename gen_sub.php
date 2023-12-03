@@ -88,7 +88,7 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 //$servers = array_map('htmlspecialchars_decode', $servers);
 
 //file_put_contents($outputFile, implode(" \n", $servers));
-file_put_contents('output.txt', $output);
+file_put_contents('/output.txt', $output);
 // Base64 encode links
 
 ?>
