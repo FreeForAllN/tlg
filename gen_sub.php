@@ -59,19 +59,22 @@ foreach ($channels as $channel) {
     if (empty($content)) {
         continue;  // Skip if content is empty or there's an error
     }
+    foreach ($content as $text) {
+        // Split the text into lines
+        $lines = explode("\n", $text);
 
-    // Loop through messages
-    foreach ($content as $line) {
+        // Loop through lines
+        foreach ($lines as $line) {
     // Check the line for different link types
-        if (preg_match("/vmess:(\/\/[^#]+)/", $line, $matches)) {
-            $vmessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
-        } elseif (preg_match("/vless:(\/\/[^#]+)/", $line, $matches)) {
-            $vlessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
-        } elseif (preg_match("/trojan:(\/\/[^#]+)/", $line, $matches)) {
-            $trojanLinks[] = $matches[0]. "#join_@FreeForAllN \n";
-        } elseif (preg_match("/ss:(\/\/[^#]+)/", $line, $matches)) {
-            $ssLinks[] = $matches[0]. "#join_@FreeForAllN \n";
-        }
+            if (preg_match("/vmess:(\/\/[^#]+)/", $line, $matches)) {
+                $vmessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
+            } elseif (preg_match("/vless:(\/\/[^#]+)/", $line, $matches)) {
+                $vlessLinks[] = $matches[0]. "#join_@FreeForAllN \n";
+            } elseif (preg_match("/trojan:(\/\/[^#]+)/", $line, $matches)) {
+                $trojanLinks[] = $matches[0]. "#join_@FreeForAllN \n";
+            } elseif (preg_match("/ss:(\/\/[^#]+)/", $line, $matches)) {
+                $ssLinks[] = $matches[0]. "#join_@FreeForAllN \n";
+            }
     }
 }
 $vmessLinks = array_map('htmlspecialchars_decode', $vmessLinks);
