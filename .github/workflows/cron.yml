@@ -7,18 +7,25 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
+  
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
+        
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          
       - name: Run PHP Script
         run: php ${{ github.workspace }}/gen_sub.php
-
+        
       - name: Commit and Push Changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add /output.txt
-          git commit -m "Run script on schedule"
+        run: 
+          git config --local user.email "thisisman1b@gmail.com"
+          git config --local user.name "FreeForAllN"
+          git add -A
+          git commit -m "Updated server links" -a echo 'No changes to commit'
           git push
+
+
