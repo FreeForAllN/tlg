@@ -26,8 +26,5 @@ jobs:
           git config --local user.email "thisisman1b@gmail.com"
           git config --local user.name "FreeForAllN"
           git add -A
-          if git diff --quiet --exit-code then echo "No changes to commit"
-          else
-            git commit -m "Updated server links"
-            git push
-          fi
+          git commit -m "Updated server links" echo 'No changes to commit'
+          git push
