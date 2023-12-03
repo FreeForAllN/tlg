@@ -22,7 +22,5 @@ jobs:
         
       - name: Commit and Push Changes
         run:          
-          git config --local user.email "thisisman1b@gmail.com"
-          git config --local user.name "FreeForAllN"
           git add -A
-          git diff --quiet --exit-code (git commit -m "Updated server links" && git push)
+          git diff --quiet (git commit -m "Updated server links" && git push)
