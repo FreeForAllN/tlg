@@ -9,7 +9,7 @@ $channels = [
 ];
 
 // Maximum number of messages to check
-$maxMessages = 10;
+$maxMessages = 11;
 $outputFile = 'output2.txt';
 // Array to store found links
 $servers = [];
