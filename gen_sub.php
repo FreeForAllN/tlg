@@ -20,7 +20,7 @@ $ssLinks = [];
 
 // Function to fetch messages from a channel using the Telegram Bot API
 function fetchChannelMessages($botToken, $channel, $maxMessages) {
-    $apiUrl = "https://api.telegram.org/bot$botToken/getUpdates?chat_id=$channel&limit=$maxMessages";
+    $apiUrl = "https://api.telegram.org/bot$botToken/getUpdates?";
     $response = file_get_contents($apiUrl);
 
     if ($response === false) {
