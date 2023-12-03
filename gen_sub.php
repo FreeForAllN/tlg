@@ -10,9 +10,13 @@ $channels = [
 
 // Maximum number of messages to check
 $maxMessages = 10;
-$outputFile = 'output.txt';
+$outputFile = 'output2.txt';
 // Array to store found links
 $servers = [];
+$vmessLinks = [];
+$vlessLinks = [];
+$trojanLinks = [];
+$ssLinks = [];
 
 // Function to fetch messages from a channel using the Telegram Bot API
 function fetchChannelMessages($botToken, $channel, $maxMessages) {
@@ -57,31 +61,38 @@ foreach ($channels as $channel) {
     }
 
     // Loop through messages
-    foreach ($content as $text) {
-        // Split the text into lines
-        $lines = explode("\n", $text);
-
-        // Loop through lines
-        foreach ($lines as $line) {
-            // Check if the line starts with vmess, ss, ssr, trojan, or vless
-            if (preg_match("/^(vmess|ss|ssr|trojan|vless):\/\/[^#]+/", $line, $matches)) {
-                $servers[] = $matches[0] . "#join_FreeForAllN \n";
-            }
+    foreach ($lines as $line) {
+    // Check the line for different link types
+        if (preg_match("/^vmess:(\/\/[^#]+)/", $line, $matches)) {
+            $vmessLinks[] = $matches[0];
+        } elseif (preg_match("/^vless:(\/\/[^#]+)/", $line, $matches)) {
+            $vlessLinks[] = $matches[0];
+        } elseif (preg_match("/^trojan:(\/\/[^#]+)/", $line, $matches)) {
+            $trojanLinks[] = $matches[0];
+        } elseif (preg_match("/^ss:(\/\/[^#]+)/", $line, $matches)) {
+            $ssLinks[] = $matches[0];
         }
     }
 }
+// Combine the links into a unified format
+$output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
+          "VLESS LINKS:\n" . implode("\n", $vlessLinks) . "\n\n" .
+          "TROJAN LINKS:\n" . implode("\n", $trojanLinks) . "\n\n" .
+          "SHADOWSOCKS LINKS:\n" . implode("\n", $ssLinks);
+
+// Write the combined links to a .txt file
+
+
 
 // Fix "&" conversion issue
 $servers = array_map('htmlspecialchars_decode', $servers);
 
-foreach ($servers as $server) {
-    echo "\n";
-    echo $server;
-    echo "\n";
-}
-
 file_put_contents($outputFile, implode(" \n", $servers));
-header('Content-Disposition: attachment; filename="' . $outputFile . '"');
+file_put_contents('output.txt', $output);
 // Base64 encode links
 
 ?>
+
+
+
+
