@@ -24,6 +24,8 @@ jobs:
           git config --local user.email "thisisman1b@gmail.com"
           git config --local user.name "FreeForAllN"
           git add -A
-          git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
+          git diff-index --quiet HEAD git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')"
+
+      - name: Push changes
+        run: git push
 
