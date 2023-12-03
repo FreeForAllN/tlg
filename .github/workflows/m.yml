@@ -1,4 +1,4 @@
-  name: Schedule update Seen
+name: Schedule update Seen
 
 on:
   schedule:
