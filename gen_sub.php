@@ -76,7 +76,7 @@ foreach ($channels as $channel) {
                 $ssLinks[] = $matches[0]. "#join_@FreeForAllN \n";
             }
     }
-}
+ }
 }
 $vmessLinks = array_map('htmlspecialchars_decode', $vmessLinks);
 $vlessLinks = array_map('htmlspecialchars_decode', $vlessLinks);
