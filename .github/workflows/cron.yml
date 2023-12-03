@@ -6,23 +6,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
   
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Set up PHP
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '7.4'
           
       - name: Run PHP Script
         run: 
           php gen_sub.php
-          git config --global user.email "yebekhe@gmail.com"
-          git config --global user.name "yebekhe"
+          git config --global user.email "thisisman1b@gmail.com"
+          git config --global user.name "FreeForAllN"
           git config credential.helper store
           git add -A
           git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')"
