@@ -1,7 +1,7 @@
 <?php
 
 // Replace 'YOUR_BOT_TOKEN' with your actual bot token
-$botToken = '6830532730:AAEZCPMH5C6qD9hdhoZHK-h7UAanna3s2G0';
+$botToken = '6830532730:AAGQfabQlllYwjGRFfEf44WlUepVlvqDHYU';
 
 // Telegram channels to search
 $channels = [
