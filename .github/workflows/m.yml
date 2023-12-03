@@ -1,8 +1,8 @@
-name: Schedule update Seen
+  name: Schedule update Seen
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '59 23 * * *'
   workflow_dispatch:
 
 jobs:
