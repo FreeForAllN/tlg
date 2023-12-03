@@ -21,8 +21,8 @@ jobs:
       - name: Run PHP Script
         run: |
           php gen_sub.php
-          git config --global user.email "thisisman1b@gmail.com"
-          git config --global user.name "FreeForAllN"
+          git config --local user.email "thisisman1b@gmail.com"
+          git config --local user.name "FreeForAllN"
           git add -A
           git commit -m "🚀 Config Update "
           git push
