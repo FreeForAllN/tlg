@@ -77,6 +77,7 @@ foreach ($channels as $channel) {
             }
     }
 }
+}
 $vmessLinks = array_map('htmlspecialchars_decode', $vmessLinks);
 $vlessLinks = array_map('htmlspecialchars_decode', $vlessLinks);
 $trojanLinks = array_map('htmlspecialchars_decode', $trojanLinks);
