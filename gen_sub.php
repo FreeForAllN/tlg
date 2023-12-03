@@ -73,12 +73,13 @@ foreach ($channels as $channel) {
             $ssLinks[] = $matches[0];
         }
     }
-}
-// Combine the links into a unified format
-$output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
+    $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
           "VLESS LINKS:\n" . implode("\n", $vlessLinks) . "\n\n" .
           "TROJAN LINKS:\n" . implode("\n", $trojanLinks) . "\n\n" .
           "SHADOWSOCKS LINKS:\n" . implode("\n", $ssLinks);
+}
+// Combine the links into a unified format
+
 
 // Write the combined links to a .txt file
 
