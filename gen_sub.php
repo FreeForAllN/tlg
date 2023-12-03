@@ -63,23 +63,22 @@ foreach ($channels as $channel) {
     // Loop through messages
     foreach ($content as $line) {
     // Check the line for different link types
-        if (preg_match("/^vmess:(\/\/[^#]+)/", $line, $matches)) {
+        if (preg_match("/vmess:(\/\/[^#]+)/", $line, $matches)) {
             $vmessLinks[] = $matches[0];
-        } elseif (preg_match("/^vless:(\/\/[^#]+)/", $line, $matches)) {
+        } elseif (preg_match("/vless:(\/\/[^#]+)/", $line, $matches)) {
             $vlessLinks[] = $matches[0];
-        } elseif (preg_match("/^trojan:(\/\/[^#]+)/", $line, $matches)) {
+        } elseif (preg_match("/trojan:(\/\/[^#]+)/", $line, $matches)) {
             $trojanLinks[] = $matches[0];
-        } elseif (preg_match("/^ss:(\/\/[^#]+)/", $line, $matches)) {
+        } elseif (preg_match("/ss:(\/\/[^#]+)/", $line, $matches)) {
             $ssLinks[] = $matches[0];
         }
     }
-    $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
+}
+// Combine the links into a unified format
+$output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
           "VLESS LINKS:\n" . implode("\n", $vlessLinks) . "\n\n" .
           "TROJAN LINKS:\n" . implode("\n", $trojanLinks) . "\n\n" .
           "SHADOWSOCKS LINKS:\n" . implode("\n", $ssLinks);
-}
-// Combine the links into a unified format
-
 
 // Write the combined links to a .txt file
 
