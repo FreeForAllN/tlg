@@ -2,7 +2,7 @@ name: Schedule update Seen
 
 on:
   schedule:
-    - cron: '5 8/8 * * *'
+    - cron: '31 7/8 * * *'
   workflow_dispatch:
 
 jobs:
