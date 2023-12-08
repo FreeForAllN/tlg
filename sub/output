@@ -2,22 +2,6 @@ VMESS LINKS:
 
 
 VLESS LINKS:
-vless://15368dd7-cb15-4156-ac63-cf056468289f@LIGHTNING6-joinbede.mamd.sbs:2083?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@LIGHTNING6&sni=Liv2ray.p-lightning6.cfd#join_@FreeForAllN 
-
-vless://47a91e7e-d3c4-4ddf-bf72-473f2031941e@LIGHTNING6-joinbedee.mamd.sbs:8080?mode=gun&security=reality&encryption=none&pbk=4OTfR6IQ_6Z-5EiAi08sSfUjZtC30c2x6jl9BE9KFwg&fp=chrome&spx=%2F&type=grpc&serviceName=@LIGHTNING6&sni=www.speedtest.net&sid=356dc0#join_@FreeForAllN 
-
-vless://SvnTeam&SvnTeam&SvnTeam@mtn.VPNPROSEC.com:2083/?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=V2ray.SvnBuy.Online#join_@FreeForAllN 
-
-vless://SvnTeam&SvnTeam&SvnTeam@mtn.VPNPROSEC.com:2083/?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=V2ray.SvnReallity.Online#join_@FreeForAllN 
-
-vless://SvnTeam&SvnTeam&SvnTeam@mtn.VPNPROSEC.com:2083/?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=V2ray.join-svnteam.online#join_@FreeForAllN 
-
-vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&security=tls&encryption=none&host=lmn37.sbs&type=ws&sni=lmn37.sbs#join_@FreeForAllN 
-
-vless://ae5aed77-be23-4f6c-bd51-c73745038952@104.27.19.27:2083?mode=gun&security=tls&encryption=none&type=grpc&serviceName=&sni=serv.revol8ting.online#join_@FreeForAllN 
-
-vless://e3ae79eb-0dad-4fe7-bdca-d7afb5a24afd@proxystore11.ddns.net:2083?mode=multi&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=@proxystore11- @proxystoremt11 @proxystore11- @proxystoremt11 @proxystore11- @proxystoremt11&sni=km.proxystore11.site#join_@FreeForAllN 
-
 vless://edbecf7f-f739-44aa-9210-6fbd057795d7@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=FreeV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
 
 vless://edbecf7f-f739-44aa-9210-6fbd057795d7@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=FreaV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
@@ -30,8 +14,6 @@ vless://89aa0c7d-63fb-4976-c94a-76acf42d8b8e@LIGHTNING6-joinbedee.mamd.sbs:8080?
 
 
 TROJAN LINKS:
-trojan://telegram-id-directvpn@52.47.90.238:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trj.rollingnext.co.uk#join_@FreeForAllN 
 
 
 SHADOWSOCKS LINKS:
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDVzNOZU5aZmtPTUVhMFpSUkc3QUpn@40.88.149.98:58844#join_@FreeForAllN 
