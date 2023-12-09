@@ -2,22 +2,6 @@ VMESS LINKS:
 
 
 VLESS LINKS:
-vless://f4146b50-8dc1-4ec5-8c76-fd1eb70fd456@ok-ex.io:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=36884925&sni=3038330955.fhash.store#join_@FreeForAllN 
-
-vless://f12d92e1-5f31-4eb2-88ef-839e9d06af02@all.vpncustomize.cam:443?mode=gun&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=High-speedV2ray.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://40951027-d124-4276-b1f5-ad0eb28da94b@ok-ex.io:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=33630914&sni=3086281858.fhash.store#join_@FreeForAllN 
-
-vless://626eb1b6-401b-4961-ae49-57cec0ef4372@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=FreeV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://626eb1b6-401b-4961-ae49-57cec0ef4372@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=FreaV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://626eb1b6-401b-4961-ae49-57cec0ef4372@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=KingSpeedV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://626eb1b6-401b-4961-ae49-57cec0ef4372@all.vpncustomize.cam:443?mode=gun&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=High-speedV2ray.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://5839689f-f62e-4f61-b625-5a802ace197b@fin.melobigg.site:443?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&serviceName=&sni=Fin.Melobigg.Site#join_@FreeForAllN 
-
 vless://67b70510-30f0-4847-96d6-34af0f6d9dcf@All.ShhProxy.Cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=@Shh_Proxy,@Shh_Proxy&sni=ShprxyV2rayy.digitalciity.Tech#join_@FreeForAllN 
 
 
@@ -25,8 +9,3 @@ TROJAN LINKS:
 
 
 SHADOWSOCKS LINKS:
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#join_@FreeForAllN 
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZkJSWWIzb25PbFY4dEpVVGp5WXpm@51.142.109.192:55976#join_@FreeForAllN 
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@www.outline.network.ak1967.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:443#join_@FreeForAllN 
