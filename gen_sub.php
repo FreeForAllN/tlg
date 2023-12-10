@@ -5,7 +5,7 @@ $botToken = getenv('TELEGRAM_BOT_TOKEN');
 
 // Telegram channels to search
 $channels = [
-    "-1002105278221"
+    "-100"
 ];
 
 // Maximum number of messages to check
