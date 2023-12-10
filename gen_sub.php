@@ -94,7 +94,7 @@ $output = "VMESS LINKS:\n" . implode("\n", $vmessLinks) . "\n\n" .
 //file_put_contents($outputFile, implode(" \n", $servers));
 // Base64 encode links
 
-file_put_contents('/sub/output', $output);
+file_put_contents('sub/output', $output);
 file_put_contents('sub/s65', base64_encode($output));
 
 ?>
