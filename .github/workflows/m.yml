@@ -21,4 +21,6 @@ jobs:
       - name: Run PHP Script
         run: |
           php check_list.php
+          env:
+            TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 

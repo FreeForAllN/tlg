@@ -26,4 +26,6 @@ jobs:
           git add -A
           git commit -m "🚀 Config Update - $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
           git push
+          env:
+            TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
