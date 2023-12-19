@@ -1,59 +1,11 @@
 VMESS LINKS:
-vmess://eyJhZGQiOiJhZnJobXMxNnYuYmVzdHhyYXkuYnV6eiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmNTg0ZGUxNS0yMDM0LTQxNzAtYTcyMy1mNDhjMmJhZTVlMGYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoiSFdBIDE1IElEKEBPdXRsaW5lX1ZwbikiLCJzY3kiOiJhdXRvIiwic25pIjoiYWZyaG1zMTZ2LmJlc3R4cmF5LmJ1enoiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==#join_@FreeForAllN 
 
 
 VLESS LINKS:
-vless://ec50aeb0-fa59-4141-b5c5-24b978838b05@xio.vpnxw.eu.org:2095?path=%2F%3Fed%3D2048&security=none&encryption=none&host=auio.vpnxw.eu.org&type=ws#join_@FreeForAllN 
-
-vless://cd20a82c-8cc8-48bb-8866-0a2c6338a390@discord.com:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=26655234&sni=1671034988.behmusic.store#join_@FreeForAllN 
-
-vless://7fa331af-750c-463a-bf28-913c8982f7e8@173.245.59.16:80?path=%2Fbackup&security=none&encryption=none&host=gAlIj7.dl-oNlINedoctoR.BiO&type=ws#join_@FreeForAllN 
-
-vless://e14b20c0-decf-473a-bd45-c853d6fbd470@104.25.254.88:8443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=&sni=b.mmd111.sbs#join_@FreeForAllN 
-
-vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@3k.pureboy.eu.org:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#join_@FreeForAllN 
-
-vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&security=tls&encryption=none&host=lmn39.sbs&type=ws&sni=lmn39.sbs#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@13.51.250.7:8443?security=reality&encryption=none&pbk=lT_FKxwMBxlJD3sBkrsX1H2fNDvoYtzoV_dH_a7szSU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@13.53.245.16:8443?security=reality&encryption=none&pbk=z4S0ejr1s6cocVp7nXaUN9GYdJVgLbb7ONqw96OMIyA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@13.49.148.212:8443?security=reality&encryption=none&pbk=FZHP5NP4Yu0fLF291zyEJd_YSqFg6FaoKwhISEQQtnk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@13.50.106.34:8443?security=reality&encryption=none&pbk=14gFO6hTmhZV0fKIC23cY8DSmApIYeupSuVsu6hCWyw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@16.171.71.34:8443?security=reality&encryption=none&pbk=f5ZPFxnVmWVTNFyQgULF_l4D7WGET9lSmXWMAFsUw0E&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@13.48.131.97:8443?security=reality&encryption=none&pbk=VYrFuiSXUwY4gWsVAqWt94rt08Cm-vP_uu2xgSDGFDM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://f553d0ca-701d-4f95-90e9-2851d055291e@16.171.66.249:8443?security=reality&encryption=none&pbk=-nWnfTJO3LQYnQwh4rY1_dmc9L2Tj-djGfGX-L9783w&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozorg.moz.works&sid=3c#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.VPNPROSEC.com:2087/?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=Grm.gelofenshop.online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.VPNPROSEC.com:2087/?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=find.gelofenshop.online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.VPNPROSEC.com:2087/?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=usa.gelofenshop.online#join_@FreeForAllN 
-
-vless://8e6b3cdc-5714-4abd-9c9d-70fbf5f98ef5@xio.vpnxw.eu.org:2095?path=%2F%3Fed%3D2048&security=none&encryption=none&host=deio.vpnxw.eu.org&type=ws#join_@FreeForAllN 
-
-vless://331c5f9f-540e-4c28-ddde-16ffc2bdf80c@173.245.58.100:2083?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=@AntiFilterChV2,@AntiFilterChV2,@AntiFilterChV2&sni=mk.AntiV2ray.space#join_@FreeForAllN 
-
-vless://dfc4a463-4276-4131-b81f-1140b5a698ab@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌ @VPNCUSTOMIZE ‌&sni=FreeV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://dfc4a463-4276-4131-b81f-1140b5a698ab@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=‌@VPNCUSTOMIZE&sni=FreeV2rayng.VPNCUSTOMIZE.online#join_@FreeForAllN 
-
-vless://dfc4a463-4276-4131-b81f-1140b5a698ab@all.vpncustomize.cam:443?mode=multi&security=tls&encryption=none&alpn=h2&fp=chrome&type=grpc&serviceName=@VPNCUSTOMIZE&sni=KingSpeedV2rayng.VPNCUSTOMIZE.tech#join_@FreeForAllN 
-
-vless://dfc4a463-4276-4131-b81f-1140b5a698ab@all.vpncustomize.cam:2095?path=%2F%3Fed%3D2048&security=none&encryption=none&host=High-speedV2ray.VPNCUSTOMIZE.online&type=ws#join_@FreeForAllN 
 
 
 TROJAN LINKS:
 
 
 SHADOWSOCKS LINKS:
-ss://YWVzLTI1Ni1nY206MzFMZFloUDhBZQ==@45.58.39.13:58428#join_@FreeForAllN 
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#join_@FreeForAllN 
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxR2ptSThXUWxGMHRmaERia0xxR2RO@passconf.xyz:8080#join_@FreeForAllN 
