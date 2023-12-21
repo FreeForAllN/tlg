@@ -1,28 +1,7 @@
 VMESS LINKS:
-vmess://eyJhZGQiOiIxeWFyYW4xMXlhcmExMXlhcmExMTF5YXJhbTExeWFyYTExLnN0b3JlIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImRiNWFmYWU0LWFjMjMtNDFhNi04Mzc4LWYzMDdhOWE0NzQzNiIsIm5ldCI6ImdycGMiLCJwYXRoIjoiIiwicG9ydCI6IjIwODciLCJwcyI6IjQ2IFlBTERBIE5JR0hUIPCfjYkgKEBPdXRsaW5lX1ZwbikiLCJzY3kiOiJhdXRvIiwic25pIjoiNTE2MTc1MjMwLmYyM21pbGFkLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiZ3VuIiwidiI6IjIifQ==#join_@FreeForAllN 
 
 
 VLESS LINKS:
-vless://dfb18c6f-731a-4898-a1c4-cc36c6055a90@w2.sylarsun.eu.org:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=w2.sylarsun.eu.org&type=ws&sni=w2.sylarsun.eu.org#join_@FreeForAllN 
-
-vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@104.21.28.62:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#join_@FreeForAllN 
-
-vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#join_@FreeForAllN 
-
-vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&security=tls&encryption=none&host=lmn39.sbs&type=ws&sni=lmn39.sbs#join_@FreeForAllN 
-
-vless://bf86d355-289a-455f-9b60-5e85f54bb83d@ip1.naylon.top:443?path=%2F&security=tls&encryption=none&host=bbbb.eshkinsike.click&type=ws&sni=bbbb.eshkinsike.click#join_@FreeForAllN 
-
-vless://acca9938-3695-43df-872a-9c7d2b11f3bd@104.21.20.148:8443?path=%2F&security=tls&encryption=none&host=felinetest.site&type=ws&sni=felinetest.site#join_@FreeForAllN 
-
-vless://8925e44e-50d8-4054-aa43-3519119fe47b@dns4.nufilter.store:443?path=%2F&security=tls&encryption=none&host=mast.kanal-tel-nufilter.site&type=ws&sni=mast.kanal-tel-nufilter.site#join_@FreeForAllN 
-
-vless://650513e5-1862-4af2-9bbc-f20ed0057650@www.speedtest.net:2083?path=%2FTelegramHosseinStore_Za&security=tls&encryption=none&host=Vip.hsza.site&fp=firefox&type=ws&sni=Vip.hsza.site#join_@FreeForAllN 
-
-vless://acca9938-3695-43df-872a-9c7d2b11f3bd@172.67.193.36:8443?path=%2F&security=tls&encryption=none&host=felinetest.site&type=ws&sni=felinetest.site#join_@FreeForAllN 
-
-vless://38510b91-2fba-4b4a-b12f-05ab84efa7ea@45.159.219.50:80?path=%2F&security=none&encryption=none&host=bia-to-channel4.unlimiteddev.shop&type=ws#join_@FreeForAllN 
-
 vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=svnteam.svnreallity.online#join_@FreeForAllN 
 
 vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=fnldnl.mmdnet.online#join_@FreeForAllN 
