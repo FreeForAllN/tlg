@@ -2,48 +2,6 @@ VMESS LINKS:
 
 
 VLESS LINKS:
-vless://e7552ee5-cefc-4ea5-9f0f-a3254c7ce870@172.67.172.214:2052?path=%2F&security=none&encryption=none&host=backup.khamenei.bio&type=ws#join_@FreeForAllN 
-
-vless://45699ea8-557b-4679-ad78-c45c893b5806@xio.vpnxw.eu.org:2052?path=%2F%3Fed%3D2048&security=none&encryption=none&host=italy.vpnxw.eu.org&type=ws#join_@FreeForAllN 
-
-vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@3k.pureboy.eu.org:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#join_@FreeForAllN 
-
-vless://05100f47-1dff-4286-809f-6a8cb82155e6@veri7fo4rse.filterchy.cfd:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#join_@FreeForAllN 
-
-vless://a2117dcc-6e1c-4df1-ec08-021bc4321097@discord.com:443?path=%2FTelegramHosseinStore_Za&security=tls&encryption=none&host=Vip.hsza.site&fp=firefox&type=ws&sni=Vip.hsza.site#join_@FreeForAllN 
-
-vless://04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1@edgu.pureboy.eu.org:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=edgu.pureboy.eu.org&type=ws&sni=edgu.pureboy.eu.org#join_@FreeForAllN 
-
-vless://c17ee8d1-c7a3-4666-83da-d923ae45c31d@ejoin-to.outline-vpn.cloud:443?path=%2Fuorpws&security=tls&encryption=none&host=oniyx.fun&type=ws&sni=oniyx.fun#join_@FreeForAllN 
-
-vless://29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2@w1.sylar8.eu.org:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=w1.sylar8.eu.org&type=ws&sni=w1.sylar8.eu.org#join_@FreeForAllN 
-
-vless://61958b98-d52a-420e-bb42-a3fd22985895@telus.com:2096?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=.....&sni=us.dalixw.fun#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=svnteam.svnreallity.online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=fnldnl.mmdnet.online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=uacnl.mmdnet.online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayGrmnl.MmdNet.Online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayFnLnd.Mmdnet.Online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayDvid.Mmdnet.Online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayGrmnl.MmdNet.Online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayFnLnd.Mmdnet.Online#join_@FreeForAllN 
-
-vless://SvnTeam@mtn.vpnprosec.com:443?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=V2rayDvid.Mmdnet.Online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni= eyt.svnv2ray.online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni= nine.svnv2ray.online#join_@FreeForAllN 
-
-vless://SvnTeamm@mtn.vpnprosec.com:2087?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni= ten.svnv2ray.online#join_@FreeForAllN 
-
 vless://SvnTeamm@mtn.vpnprosec.com:2087/?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=gm.v2rayn.top#join_@FreeForAllN 
 
 vless://SvnTeamm@mtn.vpnprosec.com:2087/?type=grpc&serviceName=&security=tls&fp=chrome&alpn=http%2F1.1%2Ch2&sni=F.V2rayn.Top#join_@FreeForAllN 
@@ -55,4 +13,3 @@ TROJAN LINKS:
 
 
 SHADOWSOCKS LINKS:
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPV0psWWpZeQ==@is1.ssproxy.xyz:1443#join_@FreeForAllN 
